@@ -1,8 +1,4 @@
-.app {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-}
+
 
 .sidebar {
   width: 380px;
@@ -13,6 +9,11 @@
   box-shadow: 4px 0 20px rgba(0, 0, 0, 0.15);
   z-index: 1000;
   position: relative;
+}
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
 .sidebar::before {
